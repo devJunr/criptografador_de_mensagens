@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-br">
+    <title>Turing's - Mensagem Encriptada</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criptografador de Mensagens">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="assets/Frame 6.png" alt="Logo Alura">
+    </header>
+
+    <main class="container">
+        <section class="entrada_texto">
+            <textarea class="entrada__texto__input" type="text" placeholder="Digite seu texto"></textarea>
+
+            <section class="entrada__texto__acao__alerta">
+                <img class="entrada__texto__acao__alerta__img" src="assets/alert-vetor.png" alt="Alerta: ">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </section>
+
+            <section class="entrada__texto__botoes">
+                <button onclick="criptografarTexto()" class="botao_criptografar">Criptografar</button>
+                <button onclick="descriptografarTexto()" class="botao_descriptografar">Descriptografar</button>
+            </section>
+        </section>
+
+        <section class="saida_texto_criptografado">
+            <section class="saida_texto_criptografado__aba">
+                <img id="saida_texto_imagem" class="saida_texto_criptografado__aba__img" src="assets/High quality products 1 1.svg" alt="">
+                <h2 id="saida_texto_mensagem">Nenhuma mensagem encontrada</h2>
+                <p id="saida_texto_frase">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </section>
+        </section>
+    </main>
+<script src="app.js"></script>
+</body>
+
+</html>
