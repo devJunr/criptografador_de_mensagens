@@ -12,12 +12,12 @@
 
 <body>
     <header class="cabecalho">
-        <img class="cabecalho__logo" src="assets/Frame 6.png" alt="Logo Alura">
+        <img id="logoRecarregar" onclick="recarregarPagina()" class="cabecalho__logo" src="assets/Frame 6.png" alt="Logo Alura">
     </header>
 
     <main class="container">
         <section class="entrada_texto">
-            <textarea class="entrada__texto__input" type="text" placeholder="Digite seu texto"></textarea>
+            <textarea id="entradaTexto" class="entrada__texto__input" type="text" placeholder="Digite seu texto"></textarea>
 
             <section class="entrada__texto__acao__alerta">
                 <img class="entrada__texto__acao__alerta__img" src="assets/alert-vetor.png" alt="Alerta: ">
@@ -33,12 +33,15 @@
         <section class="saida_texto_criptografado">
             <section class="saida_texto_criptografado__aba">
                 <img id="saida_texto_imagem" class="saida_texto_criptografado__aba__img" src="assets/High quality products 1 1.svg" alt="">
-                <h2 id="saida_texto_mensagem">Nenhuma mensagem encontrada</h2>
+                <textarea class="saida_texto_criptografado_campo" id="saida_texto_mensagem"></textarea>
+                <h2 id="saida_texto_mensagem-aviso">Nenhuma mensagem encontrada</h2>
                 <p id="saida_texto_frase">Digite um texto que você deseja criptografar ou descriptografar.</p>
             </section>
+            <button id="copiarCriptografia" onclick="copiarTexto()" class="botao_copiar">Descriptografar</button>
+
         </section>
     </main>
-<script src="app.js"></script>
+<script src="app.js" defer></script>
 </body>
 
 </html>
