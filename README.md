@@ -12,69 +12,28 @@ Este projeto foi desenvolvido com o objetivo de aprimorar o aprendizado em desen
 
 ## Tecnologias Utilizadas
 
-- **HTML**: Estrutura da página.
-- **CSS**: Estilização da página.
-- **JavaScript**: Lógica de criptografia e descriptografia.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> **HTML**: Estrutura da página.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> **CSS**: Estilização da página.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> **JavaScript**: Lógica de criptografia e descriptografia.
+
 
 ## Tabela de Códigos
 
 A tabela de códigos utilizada para criptografia e descriptografia é a seguinte:
 
-| Letra | Código |
-|-------|--------|
-| a     | X1     |
-| A     | X27    |
-| b     | Z2     |
-| B     | Z28    |
-| c     | Q3     |
-| C     | Q29    |
-| d     | W4     |
-| D     | W30    |
-| e     | T5     |
-| E     | T31    |
-| f     | V6     |
-| F     | V32    |
-| g     | R7     |
-| G     | R33    |
-| h     | P8     |
-| H     | P34    |
-| i     | S9     |
-| I     | S35    |
-| j     | Y10    |
-| J     | Y36    |
-| k     | U11    |
-| K     | U37    |
-| l     | M12    |
-| L     | M38    |
-| m     | N13    |
-| M     | N39    |
-| n     | O14    |
-| N     | O40    |
-| o     | L15    |
-| O     | L41    |
-| p     | K16    |
-| P     | K42    |
-| q     | J17    |
-| Q     | J43    |
-| r     | I18    |
-| R     | I44    |
-| s     | H19    |
-| S     | H45    |
-| t     | G20    |
-| T     | G46    |
-| u     | F21    |
-| U     | F47    |
-| v     | E22    |
-| V     | E48    |
-| w     | D23    |
-| W     | D49    |
-| x     | C24    |
-| X     | C50    |
-| y     | Y10    |
-| Y     | Y36    |
-| z     | A26    |
-| Z     | A52    |
-| *     | Espaço |
+| Letra | Código  |
+|-------|---------|
+| e     | enter   |
+| i     | imes    |
+| a     | ai      |
+| o     | ober    |
+| u     | ufat    |
+
+As demais letras são usadas como padrão: `p > p, b > b, l > l`.
+
+Letras maiúsculas e acentuadas entram na criptografia como padrão: `â > â, Ã > Ã`. 
+Isso foi incrementado para que o usuário possa utilizar a criptografia sem a necessidade de apagar a letra para poder usá-la. No entanto, o usuário será avisado sobre essa ocorrência pelo criptografador.
+
 
 ## Instalação e Uso
 
