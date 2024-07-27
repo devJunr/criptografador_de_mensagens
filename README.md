@@ -52,7 +52,7 @@ Você também pode visualizar a versão live do projeto, em: https://devjunr.git
 
 Agradeço à Oracle Brasil e à Alura por fornecerem o programa ONE e por me ofertarem uma das vagas. Este repositório se trata de um desafio (Challenge) para que eu possa enviar para avaliação. Desde já, expresso minha sincera gratidão.
 
-![](https://i0.wp.com/pcformat.mx/www/wp-content/uploads/2022/03/Oracle-ONE.jpg?fit=1000%2C611&ssl=1)
+![](/assets/Prancheta%203.png)
 
 ---
 <center>
